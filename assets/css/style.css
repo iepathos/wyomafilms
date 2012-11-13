@@ -1,14 +1,16 @@
-	.whitewrapper {
-		display: block;
-		background-color: #EEE;
 
-	}
-	
+	/*
+	 * Contact
+	 * */
 	.conform{
 		padding: 0 10px;
 		width: 100%;
 	}
 	
+	/*
+	 * About
+	 * */
+	 
 	.about h3 {
 		padding-left: 10px;
 	}
@@ -20,7 +22,26 @@
 
     /* GLOBAL STYLES
     -------------------------------------------------- */
-    /* Padding below the footer and lighter body text */
+   	.hero-unit h1{
+		
+   	}
+   	
+   	.hero-unit h2 {
+		color: #2A4480;
+   	}
+   	
+   	.smartimg {
+		border: 2px solid black;
+		border-left: 0px;
+		border-right: 0px;
+   	}
+   	
+   	.whitewrapper {
+		display: block;
+		background-color: #EEE;
+
+	}
+   
     footer {
 		background-color: #fff;
     }
@@ -245,7 +266,7 @@
  * */
 
 	h5 {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	
