@@ -1,4 +1,4 @@
-### Video Production Company portfolio website.
+### Video Production Company portfolio website.  Design viewable at: http://www.wyomafilms.com
 ## Project is coded with: HTML, CSS, JS, Bootstrap
 ## by iepathos@gmail.com
 
