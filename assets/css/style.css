@@ -22,14 +22,6 @@
 
     /* GLOBAL STYLES
     -------------------------------------------------- */
-   	.hero-unit h1{
-		
-   	}
-   	
-   	.hero-unit h2 {
-		color: #2A4480;
-   	}
-   	
    	.smartimg {
 		border: 2px solid black;
 		border-left: 0px;
@@ -42,14 +34,24 @@
 
 	}
    
+	.wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -4em;
+	}
+	
     footer {
+		padding-top: 20px;
 		background-color: #fff;
+		height: 1em;
+		position: relative;
+		bottom: -40px;
     }
     
     body {
       padding-bottom: 20px;
       color: #5a5a5a;
-     
       background: url('../img/woodback.jpg') no-repeat center center fixed;
 	  -webkit-background-size: cover;
 	  moz-background-size: cover;
@@ -281,6 +283,11 @@
 
 	.about a {
 		font-size: 12px;
+	}
+	
+	footer {
+		padding-top: 0px;
+		height: 4.2em;
 	}
 
     }
