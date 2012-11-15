@@ -36,13 +36,6 @@
 	  -o-background-size: cover;
 	  background-size: cover;
     }
-
-
-	/* Contact */
-	.conform {
-	  padding: 0 10px;
-	  width: 100%;
-	}
 	
 	/* About */
 	.about h3 {
@@ -54,6 +47,20 @@
 	  line-height: 1;
 	}
 
+	/* Contact */
+	.conform {
+	  padding: 0 10px;
+	  width: 100%;
+	}
+	
+	.phonecaption {
+	  position: relative;
+	  bottom: 40px;
+	  margin-left: 150px;
+	  font-size: 22px;
+	  color: #fff;
+	}
+	
     /* THE NAVBAR
     -------------------------------------------------- */
 
@@ -93,8 +100,6 @@
 
     /* Video Carousel
     -------------------------------------------------- */
-
-    /* Carousel base class */
     .carousel {
       margin-bottom: 50px;
     }
@@ -144,7 +149,7 @@
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
-      color: #FFF;
+      color: #fff;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
 
@@ -186,16 +191,31 @@
 	  .conform {
  	    width: auto;
 	  }
-    } /* End @media max-width: 979px */
+	  
+	  .phonecaption {
+	    bottom: 40px;
+	    margin-left: 75px;
+	    font-size: 18px;
+	  }
+	  
+    } /* End @media (max-width: 979px) */
 
     @media (max-width: 767px) {
 
       .navbar-inner {
         margin: -20px;
       }
-
-	/* Index Page CSS Response smartphone
-	* */
+	
+	  footer {
+	    font-size: 10px;
+	  }
+	  
+	  footer a {
+	   font-size: 12px;
+	  }	
+	  
+	  /* Index Page CSS Response smartphone
+	  * */
       .carousel {
         margin-left: -20px;
         margin-right: -20px;
@@ -227,8 +247,26 @@
         font-size: 16px;
         line-height: 1;
       }
+	 
+	  /* About Page CSS Response smartphone */
+	  h5 {
+	    font-size: 15px;
+	  }
+	  
+	  .about h5 {
+	    line-height: 1;
+  	  }
+	
+	  .wyomapeople p {
+	    margin-top: -10px;
+	    font-size: 13px;
+	  }
 
-	/* Contact CSS Response smartphone */
+	  .about a {
+	    font-size: 12px;
+  	  }
+
+	  /* Contact CSS Response smartphone */
 	  .hero-unit {
 		width: 56%;
 	  }
@@ -248,33 +286,16 @@
 		font-size: 18px;
       }
 
-	/* About Page CSS Response smartphone */
-	  h5 {
-	    font-size: 15px;
-	  }
-	  
-	  .about h5 {
-	    line-height: 1;
-  	  }
-	
-	  .wyomapeople p {
-	    margin-top: -10px;
-	    font-size: 13px;
-	  }
-
-	  .about a {
-	    font-size: 12px;
-  	  }
-	
-	  footer {
-	    font-size: 10px;
-	  }
-	
 	  .phone {
 	    font-size: 23px;
 	  }
-	
-	  footer a {
-	   font-size: 12px;
-	  }	
-    } /* End @media max-width: 767px */
+	  
+	  .phonecaption {
+	    bottom: 40px;
+	    margin-left: 90px;
+	    font-size: 16px;
+	  }
+	  
+	  
+	  
+    } /* End @media (max-width: 767px) */
