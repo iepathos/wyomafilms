@@ -1,45 +1,30 @@
-
-	/*
-	 * Contact
-	 * */
-	.conform{
-		padding: 0 10px;
-		width: 100%;
-	}
-	
-	/*
-	 * About
-	 * */
-	 
-	.about h3 {
-		padding-left: 10px;
-	}
-	
-	.wyomapeople h5, .wyomapeople p {
-		line-height: 1;
-	}
-
+/* Wyoma Films - Video Production Company Online Portfolio
+ * Coded by Glen Baker - iepathos@gmail.com - github.com/iepathos
+ * 
+ * Some code originates from Bootstrap marketing template.
+ * - Thanks to @mdo & @fat
+ * */
 
     /* GLOBAL STYLES
     -------------------------------------------------- */
    	.smartimg {
-		border: 2px solid black;
-		border-left: 0px;
-		border-right: 0px;
+	  border: 2px solid black;
+	  border-left: 0;
+	  border-right: 0;
    	}
    	
    	.whitewrapper {
-		display: block;
-		background-color: #EEE;
-
+	  display: block;
+	  background-color: #eee;
 	}
 	
     footer {
-		display: block;
-		background-color: #fff;
-		padding-right: 10px;
-		padding-left: 10px;
-
+	  display: block;
+	  background-color: #800517;
+	  padding: 10px;
+	  color: white;
+	  position:relative;
+	  bottom: -10px;
     }
     
     body {
@@ -53,7 +38,22 @@
     }
 
 
-    /* CUSTOMIZE THE NAVBAR
+	/* Contact */
+	.conform {
+	  padding: 0 10px;
+	  width: 100%;
+	}
+	
+	/* About */
+	.about h3 {
+	  padding-left: 10px;
+	}
+	
+	.wyomapeople h5, .wyomapeople p {
+	  line-height: 1;
+	}
+
+    /* THE NAVBAR
     -------------------------------------------------- */
 
     /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -90,9 +90,7 @@
       margin-top: 10px;
     }
 
-
-
-    /* CUSTOMIZE THE NAVBAR
+    /* Video Carousel
     -------------------------------------------------- */
 
     /* Carousel base class */
@@ -136,10 +134,10 @@
 	  border-radius: 4px; 
     }
     .carousel-caption h1 {
-		color: #2A4480;
-		text-shadow: 0 1px 1px rgba(0,0,0,.4);
-        line-height: 1.25;
-        margin: 0;
+	  color: #2A4480;
+	  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      line-height: 1.25;
+      margin: 0;
     }
     
     .carousel-caption .lead {
@@ -149,10 +147,8 @@
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
 
-
     /* RESPONSIVE CSS
     -------------------------------------------------- */
-
     @media (max-width: 979px) {
 
       .container.navbar-wrapper {
@@ -174,24 +170,22 @@
       }
     
       .carousel .video {
-      min-width: 100%;
-      height: 500px;
+        min-width: 100%;
+        height: 500px;
 	  }
 	  
-	   .carousel-caption {
-		width: 85%;
-		
-	   }
+	  .carousel-caption {
+	    width: 85%;
+	  }
 
-	   .hero-unit {
-		width: 75%;
-	   }
+	  .hero-unit {
+	    width: 75%;
+      }
 	  
 	  .conform {
-	  width: auto;
+ 	    width: auto;
 	  }
-    }
-
+    } /* End @media max-width: 979px */
 
     @media (max-width: 767px) {
 
@@ -199,10 +193,8 @@
         margin: -20px;
       }
 
-
-/* 
- * Index Page CSS Response smartphone
- * */
+	/* Index Page CSS Response smartphone
+	* */
       .carousel {
         margin-left: -20px;
         margin-right: -20px;
@@ -220,7 +212,7 @@
 	  }
       
       .carousel-caption {
-        padding: 0 25px;
+        padding: 20px;
         width: 70%;
         margin-left: 25px;
       }
@@ -234,10 +226,7 @@
         line-height: 1;
       }
 
-
-/*
- * Contact CSS Response smartphone
- * */
+	/* Contact CSS Response smartphone */
 	  .hero-unit {
 		width: 56%;
 	  }
@@ -246,7 +235,6 @@
 		font-size: 23px;
       }
       
-      
       .hero-unit h1 {
 		margin-top: -10px;
 		font-size: 40px; 
@@ -254,39 +242,37 @@
       }
       
       .conform {  
-    	margin-top: 0px;
+    	margin-top: 0;
 		font-size: 18px;
       }
 
-/* 
- * About Page CSS Response smartphone
- * */
+	/* About Page CSS Response smartphone */
+	  h5 {
+	    font-size: 15px;
+	  }
+	  
+	  .about h5 {
+	    line-height: 1;
+  	  }
+	
+	  .wyomapeople p {
+	    margin-top: -10px;
+	    font-size: 13px;
+	  }
 
-	h5 {
-		font-size: 15px;
-	}
-
+	  .about a {
+	    font-size: 12px;
+  	  }
 	
-	.about h5 {
-		line-height: 1;
-	}
+	  footer {
+	    font-size: 10px;
+	  }
 	
-	.wyomapeople p {
-		margin-top: -10px;
-		font-size: 13px;
-	}
-
-	.about a {
-		font-size: 12px;
-	}
+	  .phone {
+	    font-size: 23px;
+	  }
 	
-	footer {
-		padding-top: 5px;
-	}
-	
-	.phone {
-		font-size: 23px;
-	}
-	
-
-    }
+	  footer a {
+	   font-size: 12px;
+	  }	
+    } /* End @media max-width: 767px */
